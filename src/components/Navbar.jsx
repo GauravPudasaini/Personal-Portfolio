@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="fixed">
             <nav>
                 <ul>
-                    <li> </li>
+                    <li> Hello</li>
                     <li> </li>
                     <li> </li>
                     <li> </li>
