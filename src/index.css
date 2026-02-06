@@ -1,1 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
 @import "tailwindcss";
+
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+	@apply bg-slate-950 text-slate-100 antialiased;
+	font-family: "Space Grotesk", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+a {
+	@apply transition-colors duration-200;
+}
+
+::selection {
+	@apply bg-indigo-500/40 text-white;
+}
